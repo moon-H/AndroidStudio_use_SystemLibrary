@@ -1,7 +1,10 @@
 # AndroidStudio_use_SystemLibrary
 as system library
-1.在libs文件夹同级的目录下建立一个ext（名称随意，systemlibrary 放在此目录下），将只用于编译的jar包放在此。\n
+
+1.在libs文件夹同级的目录下建立一个ext（名称随意，systemlibrary 放在此目录下），将只用于编译的jar包放在此。
+
 2.配置buidle.gradle
+
  dependencies {
     provided files('ext/aaa.jar')
 }
