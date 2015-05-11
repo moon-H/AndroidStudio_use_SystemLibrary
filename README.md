@@ -6,8 +6,11 @@ as system library
 2.配置buidle.gradle
 
  dependencies {
+ 
     provided files('ext/aaa.jar')
+    
 }
 
 这样aaa.jar包将会参与编译，但不会被打包进apk。
+
 不明白的可以QQ 307313378
